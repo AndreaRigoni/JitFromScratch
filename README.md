@@ -3,7 +3,7 @@ Collection of examples from my talks in the [LLVM Social Berlin](https://www.mee
 
 ## Build
 
-All examples are tested on Linux Mint 18, Mac OS X 10.12 and Windows 10. Please find detailed instructions in [Building a JIT from scratch](http://weliveindetail.github.io/blog/post/2017/07/18/building-a-jit-from-scratch.html).
+All examples are tested on Linux Mint 18, Mac OS X 10.12 and Windows 10. Please find detailed instructions in [Building a JIT from scratch](https://weliveindetail.github.io/blog/post/2017/07/18/building-a-jit-from-scratch.html).
 
 ## Structure
 
