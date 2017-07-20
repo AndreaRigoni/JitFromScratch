@@ -1,7 +1,9 @@
 # JitFromScratch
-Collection of examples from my talks in the [LLVM Social Berlin](https://www.meetup.com/de-DE/LLVM-Social-Berlin/) and [C++ User Group Berlin](https://www.meetup.com/de-DE/berlincplusplus/) that showcase techniques for implementing various aspects of a JIT compiler built with the LLVM 4.0 ORC libraries.
+Collection of examples from my talks in the [LLVM Social Berlin](https://www.meetup.com/de-DE/LLVM-Social-Berlin/) and [C++ User Group Berlin](https://www.meetup.com/de-DE/berlincplusplus/) that showcase techniques for implementing various aspects of a JIT compiler built with the LLVM 4.0 ORC libraries. The repository follows a *perfect history* policy to foster traceability and understanding.
 
-All examples are tested on Linux Mint 18, Mac OS X 10.12 and Windows 10. The repository follows a *perfect history* policy to foster traceability and understanding.
+## Build
+
+All examples are tested on Linux Mint 18, Mac OS X 10.12 and Windows 10. Please find detailed instructions in [Building a JIT from scratch](http://weliveindetail.github.io/blog/post/2017/07/18/building-a-jit-from-scratch.html).
 
 ## Structure
 
