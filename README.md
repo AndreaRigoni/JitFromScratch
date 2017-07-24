@@ -26,14 +26,14 @@ int *integerDistances(const int (&x)[sizeOfArray], int *y) {
 ## Table of Contents
 
 * general topics
-  * [jit-basics](https://github.com/weliveindetail/JitFromScratch/commits/jit-basics) — step by step guide for a basic minimal JIT
-  * [jit-optimization](https://github.com/weliveindetail/JitFromScratch/commits/jit-optimization) — applying selected optimizations to JITed code
+  * [jit-basics](https://github.com/weliveindetail/JitFromScratch/commits/jit-basics) — step by step guide for a basic minimal JIT [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-basics)]
+  * [jit-optimization](https://github.com/weliveindetail/JitFromScratch/commits/jit-optimization) — applying selected optimizations to JITed code [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-optimization)]
 
 * calling external functions from JITed code
-  * [jit-function-calls/explicit](https://github.com/weliveindetail/JitFromScratch/commits/jit-function-calls/explicit) — explicit run-time name/address mapping
-  * [jit-function-calls/implicit-extern-c](https://github.com/weliveindetail/JitFromScratch/commits/jit-function-calls/implicit-extern-c) — implicit compile-time binding to C functions
-  * [jit-function-calls/implicit-mangled](https://github.com/weliveindetail/JitFromScratch/commits/jit-function-calls/implicit-mangled) — implicit compile-time binding to C++ functions
+  * [jit-function-calls/explicit](https://github.com/weliveindetail/JitFromScratch/commits/jit-function-calls/explicit) — explicit run-time name/address mapping [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-function-calls/explicit)]
+  * [jit-function-calls/implicit-extern-c](https://github.com/weliveindetail/JitFromScratch/commits/jit-function-calls/implicit-extern-c) — implicit compile-time binding to C functions [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-function-calls/implicit-extern-c)]
+  * [jit-function-calls/implicit-mangled](https://github.com/weliveindetail/JitFromScratch/commits/jit-function-calls/implicit-mangled) — implicit compile-time binding to C++ functions [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-function-calls/implicit-mangled)]
 
 * debugging JIT compiled code
-  * [jit-debug/llvm-debug-dumps](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/llvm-debug-dumps) — command line arguments `-debug` and `-debug-only`
-  * [jit-debug/gdb-interface](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/gdb-interface) — implement the GDB JIT-interface
+  * [jit-debug/llvm-debug-dumps](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/llvm-debug-dumps) — command line arguments `-debug` and `-debug-only` [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-debug/llvm-debug-dumps)]
+  * [jit-debug/gdb-interface](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/gdb-interface) — implement the GDB JIT-interface [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-debug/gdb-interface)]
