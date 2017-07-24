@@ -35,4 +35,5 @@ int *integerDistances(const int (&x)[sizeOfArray], int *y) {
   * [jit-function-calls/implicit-mangled](https://github.com/weliveindetail/JitFromScratch/commits/jit-function-calls/implicit-mangled) — implicit compile-time binding to C++ functions
 
 * debugging JIT compiled code
+  * [jit-debug/llvm-debug-dumps](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/llvm-debug-dumps) — command line arguments `-debug` and `-debug-only`
   * [jit-debug/gdb-interface](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/gdb-interface) — implement the GDB JIT-interface
