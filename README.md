@@ -37,3 +37,13 @@ int *integerDistances(const int (&x)[sizeOfArray], int *y) {
 * debugging JIT compiled code
   * [jit-debug/llvm-debug-dumps](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/llvm-debug-dumps) — command line arguments `-debug` and `-debug-only` [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-debug/llvm-debug-dumps)]
   * [jit-debug/gdb-interface](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/gdb-interface) — implement the GDB JIT-interface [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-debug/gdb-interface)]
+
+* compile source code at runtime
+  * [jit-from-source/cpp-clang](https://github.com/weliveindetail/JitFromScratch/commits/jit-from-source/cpp-clang) — compile C++ with Clang at runtime [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-from-source/cpp-clang)]
+  
+## Related Blog Posts
+
+* [The simplest way to compile C++ with Clang at runtime](http://weliveindetail.github.io/blog/post/2017/07/25/compile-with-clang-at-runtime-simple.html)
+* [Debugging Clang](http://weliveindetail.github.io/blog/post/2017/07/19/debugging-clang.html)
+* [Building a JIT from scratch](http://weliveindetail.github.io/blog/post/2017/07/18/building-a-jit-from-scratch.html)
+* [Notes on setting up projects with LLVM](http://weliveindetail.github.io/blog/post/2017/07/17/notes-setup.html)
