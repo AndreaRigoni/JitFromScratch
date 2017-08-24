@@ -10,7 +10,7 @@ All examples are tested on Linux Mint 18, Mac OS X 10.12 and Windows 10. Please 
 
 ## Structure
 
-The [jit-basics](https://github.com/weliveindetail/JitFromScratch/commits/llvm40/llvm40/jit-basics) establish a common code base for all further examples by demonstrating how to compile the code for a simple function at runtime:
+The [jit-basics](https://github.com/weliveindetail/JitFromScratch/commits/llvm40/jit-basics) establish a common code base for all further examples by demonstrating how to compile the code for a simple function at runtime:
 
 ```
 template <size_t sizeOfArray>
