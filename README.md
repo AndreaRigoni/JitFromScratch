@@ -1,5 +1,5 @@
 # JitFromScratch
-Collection of examples from my talks in the [LLVM Social Berlin](https://www.meetup.com/de-DE/LLVM-Social-Berlin/) and [C++ User Group Berlin](https://www.meetup.com/de-DE/berlincplusplus/) that showcase techniques for implementing various aspects of a JIT compiler built with the LLVM 4.0 ORC libraries. The repository follows a *perfect history* policy to foster traceability and understanding.
+Collection of examples from my talks in the [LLVM Social Berlin](https://www.meetup.com/de-DE/LLVM-Social-Berlin/) and [C++ User Group Berlin](https://www.meetup.com/de-DE/berlincplusplus/) that showcase techniques for implementing various aspects of a JIT compiler built with the LLVM 5.0 ORC libraries. The repository follows a *perfect history* policy to foster traceability and understanding.
 
 ## Build
 
@@ -38,11 +38,23 @@ int *integerDistances(const int (&x)[sizeOfArray], int *y) {
   * [jit-debug/llvm-debug-dumps](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/llvm-debug-dumps) — command line arguments `-debug` and `-debug-only` [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-debug/llvm-debug-dumps)]
   * [jit-debug/gdb-interface](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/gdb-interface) — implement the GDB JIT-interface [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-debug/gdb-interface)]
 
-* compile source code at runtime
+* compile source code at runtime — **todo: port to 5.0**
   * [jit-from-source/cpp-clang](https://github.com/weliveindetail/JitFromScratch/commits/jit-from-source/cpp-clang) — compile C++ with Clang at runtime [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-from-source/cpp-clang)]
-  
+
+## Previous Versions
+
+* [LLVM 4.0](https://github.com/weliveindetail/JitFromScratch/tree/master/llvm40)
+
+You can easily diff for a specific 4.0 to 5.0 change set, e.g.:
+```
+$ git diff llvm40/jit-basics jit-basics
+$ git diff llvm40/jit-basics jit-basics -- CMakeLists.txt
+$ git diff llvm40/jit-debug/gdb-interface jit-debug/gdb-interface -- SimpleOrcJit.h
+```
+
 ## Related Blog Posts
 
+* [LLVM 5.0 Release ORC API Changes](http://weliveindetail.github.io/blog/post/2017/08/23/llvm50-release-orc-api-changes.html)
 * [The simplest way to compile C++ with Clang at runtime](http://weliveindetail.github.io/blog/post/2017/07/25/compile-with-clang-at-runtime-simple.html)
 * [Debugging Clang](http://weliveindetail.github.io/blog/post/2017/07/19/debugging-clang.html)
 * [Building a JIT from scratch](http://weliveindetail.github.io/blog/post/2017/07/18/building-a-jit-from-scratch.html)
