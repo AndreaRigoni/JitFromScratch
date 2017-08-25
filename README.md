@@ -38,7 +38,7 @@ int *integerDistances(const int (&x)[sizeOfArray], int *y) {
   * [jit-debug/llvm-debug-dumps](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/llvm-debug-dumps) — command line arguments `-debug` and `-debug-only` [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-debug/llvm-debug-dumps)]
   * [jit-debug/gdb-interface](https://github.com/weliveindetail/JitFromScratch/commits/jit-debug/gdb-interface) — implement the GDB JIT-interface [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-debug/gdb-interface)]
 
-* compile source code at runtime — **todo: port to 5.0**
+* compile source code at runtime
   * [jit-from-source/cpp-clang](https://github.com/weliveindetail/JitFromScratch/commits/jit-from-source/cpp-clang) — compile C++ with Clang at runtime [[readme](https://github.com/weliveindetail/JitFromScratch/tree/jit-from-source/cpp-clang)]
 
 ## Previous Versions
